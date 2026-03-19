@@ -2,7 +2,7 @@
 
 A modern, interactive portfolio website built with React, featuring elegant animations, a Japanese-inspired aesthetic with floating sakura petals, and a showcase of featured projects.
 
-## 🌸 Features
+## Features
 
 - **Interactive Sakura Petals**: Toggle-able floating sakura petal animation background
 - **Responsive Design**: Optimized for all device sizes
@@ -11,7 +11,7 @@ A modern, interactive portfolio website built with React, featuring elegant anim
 - **Project Showcase**: Featured work including AI development, design systems, and prototyping
 - **Contact Integration**: Direct links to professional profiles and contact methods
 
-## 🛠️ Tech Stack
+##  Tech Stack
 
 - **Frontend**: React 19.2.4
 - **Styling**: Styled Components
@@ -19,7 +19,7 @@ A modern, interactive portfolio website built with React, featuring elegant anim
 - **Testing**: Jest, React Testing Library
 - **Build Tool**: Create React App
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -85,7 +85,7 @@ src/
 └── setupTests.js
 ```
 
-## 🎨 Customization
+## Customization
 
 ### Theme Colors
 
@@ -99,8 +99,7 @@ The app uses a custom theme defined in `src/styles/themes.js`. Key colors includ
 
 The floating sakura petals can be controlled via the navbar toggle. The animation intensity and density are configurable in the `SakuraCanvas` component.
 
-## 📱 Components
-
+##  Components
 ### Core Components
 
 - **Navbar**: Navigation with petal toggle control
@@ -119,7 +118,7 @@ npm test
 
 Tests are written using Jest and React Testing Library, covering component rendering and user interactions.
 
-## 🌐 Deployment
+## Deployment
 
 Build for production:
 ```bash
@@ -128,25 +127,3 @@ npm run build
 
 The build artifacts will be stored in the `build/` directory, ready for deployment to any static hosting service.
 
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is private and proprietary.
-
-## 📞 Contact
-
-Nivetha Ponnambalam
-- LinkedIn: [Your LinkedIn Profile]
-- Email: [Your Email]
-- Portfolio: [Live Site URL]
-
----
-
-*Built with ❤️ using React and modern web technologies*
