@@ -46,7 +46,7 @@ export default function Navbar({petalsOn, setPetalsOn}) {
         <a href="#projects">Work</a>
         <a href="#contact">Contact</a>
         <Toggle onClick={() => setPetalsOn((v) => !v)}>
-          {petalsOn ? "🌸 On" : "🌸 Off"}
+          {petalsOn ? "🌸 Off" : "🌸 On"}
         </Toggle>
 
       </Menu>

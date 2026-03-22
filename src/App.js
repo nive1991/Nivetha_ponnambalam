@@ -24,10 +24,10 @@ function App() {
     <ThemeProvider theme={theme}>
       <GlobalStyles />
       
-{/* 🌸 Floating sakura petals */}
-      <SakuraCanvas intensity="calm" density="auto" />
+{/* Floating sakura petals (enabled by toggle) */}
+      {petalsOn && <SakuraCanvas intensity="calm" density="auto" />}
       <Main>
-      <Navbar petalsOn={!petalsOn} setPetalsOn={setPetalsOn} />
+      <Navbar petalsOn={petalsOn} setPetalsOn={setPetalsOn} />
       <HeroNew />
       <About />
       <Projects />
